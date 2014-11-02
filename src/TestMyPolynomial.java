@@ -1,4 +1,4 @@
-
+//This test the implementation of a polynomial object
 public class TestMyPolynomial {
     public static void main (String[] args){
         //Triple dots reflect an array of any size can be made when invoked
