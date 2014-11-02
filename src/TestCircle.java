@@ -1,4 +1,5 @@
-
+//Create 3 different drones and test their methods
+//This will print circle methods to see if they work
 public class TestCircle {
     public static void main(String[] args){
         Circle c1 = new Circle();
