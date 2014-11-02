@@ -36,6 +36,7 @@ public class Author {
         this.gender = gender;
     }
 
+    //Overriding our own toString() allows us to control what happens when the object is directly referenced.
     public String toString(){
         return name + " (" + gender + ") "+ email;
     }
