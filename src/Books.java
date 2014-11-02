@@ -5,7 +5,7 @@ public class Books {
     private double price;
     private int qtyInStock;
 
-    //NOTICE: Books has two different constructors. 
+    //NOTICE: Books has two different constructors, both of which use and Author object. 
     public Books(String name, Author author, double price){
         this.name = name;
         this.author = author;
