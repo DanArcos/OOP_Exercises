@@ -1,4 +1,4 @@
-
+//This tests the implementation of a test point
 public class TestPoint {
    public static void main(String[] args){
        MyPoint p1 = new MyPoint(3,0);
