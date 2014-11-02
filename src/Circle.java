@@ -2,6 +2,7 @@ public class Circle {
     private double radius;
     private String color;
 
+    //Add Constructors
     public Circle(){
         this.radius = 1.0;
         this.color = "red";
@@ -17,6 +18,7 @@ public class Circle {
         this.color = c;
     }
 
+    //Add all getters and setters
     public double getRadius(){
         return radius;
     }
@@ -37,6 +39,7 @@ public class Circle {
         this.color = color;
     }
 
+    //Add custom toString()
     public String toString(){
         return "Circle: radius=" + radius + " color=" + color;
     }
