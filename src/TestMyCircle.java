@@ -1,4 +1,4 @@
-
+//This is another test of the circle object
 public class TestMyCircle {
     public static void main(String[] args){
         MyCircle c1 = new MyCircle();
