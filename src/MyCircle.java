@@ -4,6 +4,7 @@ public class MyCircle {
     private MyPoint center;
     private int radius;
 
+    //Add Constructors
     public MyCircle(){
         this.center = new MyPoint();
         this.radius = 1;
@@ -19,6 +20,7 @@ public class MyCircle {
         this.radius = radius;
     }
 
+    //Add Getters and Setters
     public int getRadius(){
         return radius;
     }
@@ -46,11 +48,13 @@ public class MyCircle {
     public void setCenterXY(int x, int y){
         center.setXY(x,y);
     }
-
+    
+    //Override toString()
     public String toString(){
         return "Circle @ "+center.toString()+ " radius = "+radius;
     }
 
+    //Incorporate the number Pi in order to calculate the area!
     public double getArea(){
         return Math.PI*radius*radius;
     }
