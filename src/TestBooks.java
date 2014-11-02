@@ -1,4 +1,5 @@
-
+//This file will create a Books object, which also uses a created Author object
+//Book methods will be displayed the console.
 public class TestBooks {
     public static void main(String[] args){
         Author anAuthor = new Author("DANIEL ARCOS", "NAME@EMAIL>COM", 'm');
