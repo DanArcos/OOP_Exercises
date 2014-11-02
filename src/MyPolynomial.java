@@ -8,6 +8,7 @@ public class MyPolynomial {
 
     double[] coeffs;
 
+    //The ... infront of the double indicates that any number of arguments can be included as a parameter
     public MyPolynomial(double... coeffs){
         this.coeffs = coeffs;
     }
@@ -27,10 +28,13 @@ public class MyPolynomial {
         }
     }
 
+    //Calculate the degree of the polynomials
     public int getDegree(){
         return coeffs.length-1;
     }
 
+    //Override toString
+    //This will return a polynomial beginning highest degree to lowest (constants)
     public String toString(){
         String result = "";
         for(int i = coeffs.length-1; i > -1; i--){
@@ -42,15 +46,12 @@ public class MyPolynomial {
 
     }
 
+    //This will evaluate the expression provided you give a value for x
     public double evaluate(double x){
         double result = 0;
         for (double i:coeffs){
             result += x*i;
         }
         return result;
-    }
-
-    public MyPolynomial add(MyPolynomial anotherPolynomial){
-
     }
 }
