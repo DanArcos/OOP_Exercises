@@ -5,6 +5,7 @@ public class Books {
     private double price;
     private int qtyInStock;
 
+    //NOTICE: Books has two different constructors. 
     public Books(String name, Author author, double price){
         this.name = name;
         this.author = author;
@@ -18,6 +19,7 @@ public class Books {
         this.qtyInStock = qtyInStock;
     }
 
+    //Implement appropriate Getters and Setters
     public String getName(){
         return name;
     }
